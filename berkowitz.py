@@ -31,7 +31,7 @@ def main():
                 kPeers.append(p);
         end = time.time();
         print "Done. Time: %f"%(end-start)
-        print "Running kPeers...                    ",
+        print "Running kPeers...                     ",
         # Start peer list
         start= time.time();
         for i in range(0, N-2):
